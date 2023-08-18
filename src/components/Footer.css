@@ -1,0 +1,43 @@
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .col-sm-12 {
+    flex-basis: 100%;
+  }
+  
+  .col-md-6 {
+    flex-basis: 50%;
+  }
+
+  /* Footer.css */
+
+/* Style for normal link */
+.footer-link {
+  color: #ffffff; /* Set the default color for the links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Style for hovered link */
+.footer-link:hover {
+  color: #9c157e; /* Set the color for the links on hover */
+  text-decoration: underline; /* Add underline to links on hover */
+  /* Add any other styles you want for the hover effect */
+}
+
+  
+  /* Additional styles for your footer */
+  
