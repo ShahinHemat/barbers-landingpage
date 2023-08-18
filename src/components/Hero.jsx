@@ -28,7 +28,7 @@ const Hero = () => {
             <div className='flex items-center flex-wrap'>
               <img
                 src={dominic}
-                alt='SW Bygg AS Header'
+                alt='Dominic Header'
                 style={{ borderRadius: '50%', maxHeight: '300px', margin: '0 auto' }}
               />
               <h1 className={`${styles.heroHeadText} mt-2 hero-h1`} style={{ color: '#fff', marginLeft: '10px', textShadow: '1px 1px 0.5px #000' }}>
@@ -48,7 +48,7 @@ const Hero = () => {
             <div style={{ marginTop: '15px' }}>
               <ImageSlider images={sliderImages} />
             </div>
-            <div style={{ marginTop: '15px' }}>
+            <div className='removeOnPhone' style={{ marginTop: '15px' }}>
               <ImageSlider images={sliderImagesOne} />
             </div>
 

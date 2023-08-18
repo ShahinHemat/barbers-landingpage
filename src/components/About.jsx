@@ -66,6 +66,7 @@ const About = () => {
 
       <motion.div
         animate={isMobile ? textVariantTwo() : textVariant()}
+        className='moreMarginOnPhone'
       >
         {/* <p className={styles.sectionSubText}>Om Oss</p> */}
         <h2 className={styles.sectionHeadText}>About.</h2>

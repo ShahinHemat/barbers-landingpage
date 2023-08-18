@@ -333,3 +333,24 @@ nav {
   z-index: 1; /* Ensure the button appears above the reviews */
   margin-top: 20px; /* Adjust this value to control the spacing between reviews and the button */
 }
+
+
+
+@media (max-width: 767px) {
+  .hero-bottom-div {
+    display: none;
+  }
+
+  .removeOnPhone {
+    display: none;
+  }
+
+  .moreMarginOnPhone {
+    margin-top: 200px;
+  }
+}
+
+
+
+
+
